@@ -1,0 +1,82 @@
+* {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  border: solid 1px #ddd;
+  padding: 10px 5px;
+  color: #888;
+}
+
+#clock {
+  font-size: 120px;
+  margin: 180px 0 20px 0;
+}
+
+#login-form {
+  margin-bottom: 15px;
+}
+
+.sumitBtn {
+  color:#888;
+  border: solid 1px #ddd;
+  padding: 8px;
+}
+
+.bgImage {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  /* background-position: center;
+  background-size: cover; */
+  z-index: -1;
+}
+
+#todoInput {
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.todoListText {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.todoRemoveBtn {
+  color: #888;
+  border: solid 1px #ddd;
+  /* background-color: #ddd; */
+}
+
+#quote {
+  margin-bottom: 50px;
+}
+
+#quote span:first-child {
+ display: block; 
+}
+
+#quote span:last-child {
+  display: block; 
+ }
+
+ #weather span:first-child {
+  display: block; 
+ }
+
+

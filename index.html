@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+  <!-- input 값의 유효성 검사를 위해선 감싸고 있는게 div가 아닌 form이어야 함 -->
+  <!-- required maxlength를 사용하면 js 안써도 브라우저가 나를 도와준다.-->
+  <!-- form을 표시하기 전 검사 먼저. localstorage에 값이 있다면 표시X,  -->
+  
+  <h2 id="clock" class="center">00:00:00</h2>
+  <form id="login-form" class="hidden center"> 
+    <input required maxlength="15" type="text" placeholder="이름을 입력하세요.">
+    <input type="submit" class="sumitBtn" value="로그인">
+  </form>
+  <h1 id="greeting" class="hidden center"></h1>
+  <form id="todo-form" class="center">
+    <input type="text" name="" id="todoInput" placeholder="할 일을 작성해주세요." required/>
+  </form>
+  <ul id="todo-list" class="center">
+  </ul>
+  <div id="quote" class="center">
+    <span></span>
+    <span></span>
+  </div>
+  <!-- <a href="https://nomadcoders.co/">Go to courses</a> -->
+<div id="weather" class="center">
+  <span></span>
+  <span></span>
+</div>
+
+  <script>
+    const API_KEY = "49fbda5bd486346868adf6a01cf41862"
+  </script>
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>
